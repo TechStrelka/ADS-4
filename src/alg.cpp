@@ -53,7 +53,7 @@ int countPairs1(int *arr, int len, int value) {
     return count;
 }
 int countPairs2(int *arr, int len, int value) {
-quickSort(arr, 0, len - 1);
+    quickSort(arr, 0, len - 1);
     int count = 0;
     int left = 0;
     int right = len - 1;

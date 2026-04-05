@@ -63,11 +63,9 @@ quickSort(arr, 0, len - 1);
             count++;
             left++;
             right--;
-        }
-        else if (sum < value) {
+        } else if (sum < value) {
             left++;
-        }
-        else {
+        } else {
             right--;
         }
     }

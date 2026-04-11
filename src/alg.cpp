@@ -38,7 +38,7 @@ int countPairs3(int *arr, int len, int value) {
         int target = value - arr[i];
         int low = i + 1;
         int high = len - 1;
-          
+        
         int first = -1;
         while (low <= high) {
           int mid = low + (high - low) / 2;
